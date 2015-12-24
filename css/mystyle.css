@@ -1,0 +1,9 @@
+.description_text {
+	
+	text-align: justify;
+}
+
+.arrow_slider {
+	
+	position:absolute;top:50%;margin-top:-25px;left:50%;margin-left:-25px
+}

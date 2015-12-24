@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,6 +14,9 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+	<!-- My CSS -->
+    <link href="css/mystyle.css" rel="stylesheet">
+	
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
@@ -42,13 +44,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Название сайта &nbsp; &nbsp; </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a href="#">Главная</a></li>
+            <li><a href="#about">Портфолио</a></li>
+            <li><a href="#contact">Контакты</a></li>
           </ul>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
@@ -60,7 +62,7 @@
 
         <div class="col-xs-12 col-sm-9">
           <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Переключить навигацию</button>
           </p>
           <div class="jumbotron">
             
@@ -75,90 +77,92 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner" role="listbox">
 				<div class="item active">
-				  <img src="img/slider/food-q-c-950-300-1.jpg" alt="...">
+				  <img class="border_rad_for_carousel" src="img/slider/technics-q-c-950-300-7.jpg" alt="...">
 				  <div class="carousel-caption">
-					...
+					<!-- Описание фото № 1 -->
 				  </div>
+				  Описание под первым фото
 				</div>
 				<div class="item">
-				  <img src="..." alt="...">
+				  <img src="img/slider/technics-q-c-950-300-9.jpg" alt="...">
 				  <div class="carousel-caption">
-					...
+					<!-- Описание фото № 2 -->
 				  </div>
+				   Описание под вторым фото
 				</div>
-				...
+				<div class="item">
+				  <img src="img/slider/technics-q-c-950-300-1.jpg" alt="...">
+				  <div class="carousel-caption">
+					<!-- Описание фото № 3 -->
+				  </div>
+				  Описание под третьим фото
+				</div>
 			  </div>
 
 			  <!-- Controls -->
-			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			  </a>
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"><img class="arrow_slider" src="img/slider/arrow-left.png" alt="..."></a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"><img class="arrow_slider" src="img/slider/arrow-right.png" alt="..."></a>
 			</div>
 			
           </div>
           <div class="row">
             <div class="col-sm-6 col-md-4">
 				<div class="thumbnail">
-				  <img src="img/city-q-c-242-200-8.jpg" alt="">
+				  <a href="#"><img src="http://lorempixel.com/400/200" alt=""></a>
 				  <div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<h3><a href="#">Thumbnail label</a></h3>
+					<p class="description_text">This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+					<p><a href="#" class="btn btn-primary" role="button">Подробнее &raquo; </a></p>
 				  </div>
 				</div>
 			</div><!--/.col-sm-6 col-md-4-->
             <div class="col-sm-6 col-md-4">
 				<div class="thumbnail">
-				  <img src="img/city-q-c-242-200-8.jpg" alt="">
+				  <a href="#"><img src="http://lorempixel.com/400/200/sports/Dummy-Text" alt=""></a>
 				  <div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<h3><a href="#">Thumbnail label</a></h3>
+					<p class="description_text">This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+					<p><a href="#" class="btn btn-primary" role="button">Подробнее &raquo; </a></p>
 				  </div>
 				</div>
 			</div><!--/.col-sm-6 col-md-4-->
             <div class="col-sm-6 col-md-4">
 				<div class="thumbnail">
-				  <img src="img/city-q-c-242-200-8.jpg" alt="">
+				  <a href="#"><img src="http://lorempixel.com/400/200/sports" alt=""></a>
 				  <div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<h3><a href="#">Thumbnail label</a></h3>
+					<p class="description_text">This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+					<p><a href="#" class="btn btn-primary" role="button">Подробнее &raquo; </a></p>
 				  </div>
 				</div>
 			</div><!--/.col-sm-6 col-md-4-->
             <div class="col-sm-6 col-md-4">
 				<div class="thumbnail">
-				  <img src="img/city-q-c-242-200-8.jpg" alt="">
+				  <a href="#"><img src="http://lorempixel.com/400/200/sports/1" alt=""></a>
 				  <div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<h3><a href="#">Thumbnail label</a></h3>
+					<p class="description_text">This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+					<p><a href="#" class="btn btn-primary" role="button">Подробнее &raquo; </a></p>
 				  </div>
 				</div>
 			</div><!--/.col-sm-6 col-md-4-->
             <div class="col-sm-6 col-md-4">
 				<div class="thumbnail">
-				  <img src="img/city-q-c-242-200-8.jpg" alt="">
+				  <a href="#"><img src="http://lorempixel.com/400/200/sports/2" alt=""></a>
 				  <div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<h3><a href="#">Thumbnail label</a></h3>
+					<p class="description_text">This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+					<p><a href="#" class="btn btn-primary" role="button">Подробнее &raquo; </a></p>
 				  </div>
 				</div>
 			</div><!--/.col-sm-6 col-md-4-->
             <div class="col-sm-6 col-md-4">
 				<div class="thumbnail">
-				  <img src="img/city-q-c-242-200-8.jpg" alt="">
+				  <a href="#"><img src="http://lorempixel.com/400/200/sports/3" alt=""></a>
 				  <div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<h3><a href="#">Thumbnail label</a></h3>
+					<p class="description_text">This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+					<p><a href="#" class="btn btn-primary" role="button">Подробнее &raquo; </a></p>
 				  </div>
 				</div>
 			</div><!--/.col-sm-6 col-md-4-->
@@ -166,18 +170,14 @@
         </div><!--/.col-xs-12.col-sm-9-->
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-          <div class="list-group">
-            <a href="#" class="list-group-item active">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-          </div>
+
+			<ul class="nav nav-pills nav-stacked">
+				<li><a href="#" class="list-group-item active">СТРОИТЕЛЬСТВО ДОМА</a></li>
+				<li><a href="#" class="list-group-item">ЛАНДШАФТНЫЙ ДИЗАЙН</a></li>
+				<li><a href="#" class="list-group-item">САНТЕХНИКА</a></li>
+				<li><a href="#" class="list-group-item">ЭЛЕКТРИКА</a></li>
+			</ul>
+		  
         </div><!--/.sidebar-offcanvas-->
       </div><!--/row-->
 
